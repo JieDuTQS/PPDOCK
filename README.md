@@ -28,7 +28,7 @@ conda install -c conda-forge openbabel
 ## Data 
 The training data we use comes from FAbind. You can download it through this [link](https://zenodo.org/records/11352521). 
 
-The original PDBbind 2020 dataset can be download from http://www.pdbbind.org.cn.
+The original PDBbind 2020 dataset can be downloaded from http://www.pdbbind.org.cn.
 
 ## Train
 ### Data preprocessing
