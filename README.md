@@ -30,6 +30,8 @@ The training data we use comes from FAbind. You can download it through this [li
 
 The original PDBbind 2020 dataset can be downloaded from http://www.pdbbind.org.cn.
 
+If you have a molecule file in .sdf or .mol2 format and a protein file in .pdb format, and you want to use PPDOCK for pocket prediction or protein-ligand blind docking, you can use the dataset construction scripts provided in the dataset_creation folder. In general, running scripts 1 to 4 in sequence will complete the data construction process. However, please note that the preprocessing of molecules and proteins is relatively complex. We recommend first understanding how the dataset construction scripts work before adapting them to your own data files.
+
 ## Train
 ### Data preprocessing
 1. Download dataset from [link](https://zenodo.org/records/11352521)
